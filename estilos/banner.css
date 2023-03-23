@@ -1,0 +1,40 @@
+.banner {
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	/* width:30% ; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: white 5px solid;
+	/* display: grid;
+	grid-template-rows: auto auto;
+	align-items: center; */
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	
+}

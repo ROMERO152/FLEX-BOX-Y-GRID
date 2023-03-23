@@ -1,0 +1,48 @@
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	/* display: flex; /*hace que el contenido se acomode dentro de la caja en columnas*/
+	/* gap: 20px; agrega un espacio entre columnas de 20px */
+	display: grid;
+	grid-template-columns: 3fr 1fr;/* hace que el contenedor se divida en dos columnas y cada columna tenga el 50% fr significa fracciones */
+	gap: 20px;
+
+}
+.card {
+	border-radius: 20px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow:hidden;
+	background-size: cover; /*hace que la imagen ocupe todo el espacio de la caja y se ajuste en cada cambio de tamaño de la pantalla*/
+	background-position: center center;
+	/* width: 33.33%;
+	width: calc(33.3% - 20px);*/
+	border: white 5px solid; 
+
+}
+
+.card .textos {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*display: grid;
+	grid-template-rows: 1fr auto;*/ /*hace que el texto se divida en dos columnas y posiciona el texto arriba y abajo*/
+
+
+
+	
+}
+.contenedor-pizzas{
+	/* width: 70%; /* 70% parra el contenedor pizzas y 30% para el banner para que ocupen todo el contenedor*/
+	/* display: flex; */
+	/* flex-wrap: wrap;le indica a la pagina que si no caben los elementos se acomoden en la parte de abajo */
+	/* gap: 20px; */ 
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /*le decimos que hay 3 columnas dentro de una fraccion */
+	gap: 20px; /*separacion entre columnas*/
+}

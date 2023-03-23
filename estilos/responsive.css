@@ -1,0 +1,34 @@
+/* movil*/
+@media screen and (max-width: 767px) {
+	.contenedor {
+	  grid-template-columns: 1fr;
+	  
+	}
+	.contenedor-pizzas {
+		
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	
+	}
+  
+	.card {
+	  width: 100%;
+	  margin-bottom: 10px;
+	  
+	}
+  }
+
+  /* pantallas 768px-991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.contenedor {
+	  grid-template-columns: 70% 30%;
+	}
+  }
+
+ /*pantallas grandes*/
+@media screen and (min-width: 100%) {
+	.contenedor {
+	  grid-template-columns: repeat(3, 1fr);
+	}
+  }
